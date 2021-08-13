@@ -25,9 +25,21 @@
 							"type": "BinaryReadSettings"
 						}
 					},
+					"sink": {
+						"type": "BinarySink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings"
+						}
+					},
 					"enableStaging": false
 				},
 				"inputs": [
+					{
+						"referenceName": "Ds_chandu",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
 					{
 						"referenceName": "Ds_chandu",
 						"type": "DatasetReference"
