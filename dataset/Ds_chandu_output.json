@@ -1,0 +1,19 @@
+{
+	"name": "Ds_chandu_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_azure_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "*",
+				"folderPath": "input",
+				"container": "con"
+			}
+		}
+	}
+}
