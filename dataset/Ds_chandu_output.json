@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "*",
-				"folderPath": "input",
+				"folderPath": "output",
 				"container": "con"
 			}
 		}
