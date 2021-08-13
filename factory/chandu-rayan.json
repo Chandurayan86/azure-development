@@ -1,0 +1,9 @@
+{
+	"name": "chandu-rayan",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "798f4996-e2dd-4c73-917e-3a808e5e8395",
+		"tenantId": "425c5b7b-1e86-48bf-9e09-ee117c1df4da"
+	}
+}
