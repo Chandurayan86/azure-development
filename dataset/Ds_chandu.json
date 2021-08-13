@@ -1,5 +1,5 @@
 {
-	"name": "Binary1",
+	"name": "Ds_chandu",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_azure_storage",
